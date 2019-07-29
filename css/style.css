@@ -1,0 +1,205 @@
+body {
+	font-family: 'Muli', sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+/*helper classes*/
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrapper2 {
+	width: 40%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.align_left {
+	float: left;
+}
+.align_right {
+	float: right;
+}
+.text_enter {
+	text-align: center;
+}
+button {
+	border-style: none;
+	font-weight: bold;
+	padding: 10px 15px;
+	text-align: center;
+	background: transparent;
+}
+
+/*banner start*/
+header {
+	background-image: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+}
+header h1 {
+	font-size: 68px;
+	color: #fff;
+	padding: 90px;
+	letter-spacing: 2.2px;
+}
+/*header end*/
+/*get_start start*/
+.get_start {
+	padding: 60px 0;
+	background: #F7F7F7;
+}
+.get_start .text {width: 49%;
+}
+.get_start .text h1 {
+	margin: 0 0 12px 0;
+}
+.get_start .text p {
+	margin :0;
+}
+
+.get_start .btn_group {
+	width:49%;
+	text-align: right;
+	padding: 28.5px 0;
+}
+.get_start .btn_group .get_start_btn {
+	background-color: #FEE21D;
+	padding: 11px 16px;
+	margin-right: 15px;
+}
+.get_start .btn_group .more_info_btn{
+	border: 1px solid #808DED;
+	color: #808DED;
+}
+/*get_start end*/
+/*Customers satisfied start*/
+.customer_satisfied {
+	background-color: #FF4948;
+	color: #fff;
+	padding: 50px 0;
+}
+.customer_satisfied .single {
+	width: 30%;
+	padding: 0 1%;
+}
+.customer_satisfied .single h2 {
+	font-size: 95px;
+	font-weight: 200;
+	margin: 0;
+}
+.customer_satisfied .single h3 {
+	font-size: 28px;
+	margin: 0;
+}
+.customer_satisfied .single p {
+	margin: 10px 0 0 0; 
+}
+/*Customers satisfied end*/
+/*admin start*/
+.admin {
+	background-color: #F7F7F7;
+	padding: 50px 0;
+}
+.admin .text {
+	width: 49%;
+	margin-top: 100px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.admin .text .admin_name {
+	margin: 30px 0 0 0;
+}
+.admin .text p:last-child {
+	margin: 5px 0 0 0;
+	font-size: 14px;
+}
+.admin .admin_img  {
+	width: 49%;
+}
+.admin .admin_img img {
+	width: 100%;
+}
+/*admin end*/
+.contact {
+	text-align: center;
+	padding: 50px 0;
+	background: #FF4948;
+}
+.contact button {
+	text-transform: uppercase;
+	margin-right: 15px;
+}
+.contact button:last-child {
+	margin-right: 0;
+}
+.contact .get_start_btn {
+	background-color: #FEE21D;
+}
+.contact .more_info_btn {
+	background-color: #fff;
+}
+.contact .contact_btn {
+	background-color: #111640;
+	color: #fff;
+}
+/*contact end*/
+/*client start*/
+.client {
+	background-color: #F7F7F7;
+	padding: 50px 0;
+}
+.client_info {
+	overflow: hidden;
+	margin: 10px;
+}
+.client_img {
+	width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.client_img img {
+	width: 100%;
+}
+.client_name {
+	width: 70%;
+    float: left;
+	margin-top: 35px;
+}
+.client_name h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0 0 1px 0;
+	color: #000107;
+}
+.client_name p {
+	margin: 0;
+}
+.client_msg {
+	background: #FF4948;
+	color: #fff;
+	padding: 10px 45px;
+	margin: 0 20px;
+	position: relative;
+}
+.client_msg::before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 30px solid #FF4948;
+	border-top: 20px solid transparent;
+	position: absolute;
+	top: -20px;
+	left: 70px;
+}
+/*client end*/
+
+
+@media only screen and (max-width: );
+
+
